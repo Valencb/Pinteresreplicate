@@ -1,0 +1,64 @@
+body{
+  box-sizing: content-box;
+}
+header{
+  background-color: #EC7063;
+  position: fixed;
+  width: 100%;
+}
+header > *{
+  display: inline-block;
+  text-align: center;
+
+}
+header >h1{
+  width: 8%;
+  height: 4%;
+  color: red;
+}
+
+header >form {
+  width: 40%;
+  font-style: oblique;
+  font-size: 30px;
+  height: 30%;
+  left: 8%;
+  position: relative;
+}
+#search-input{
+  width: 55%;
+  height: 20%;
+  border-radius: 10%;
+}
+header> navbar {
+  width: 20%;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+  font-style:  bold;
+  position: relative;
+  left: 10%;
+}
+a {
+  width: 20px;
+  margin-left: 15px;
+}
+.col {
+  float: left;
+  width: 30%;
+  margin: 16px;
+
+}
+img{
+  width: 300px;
+  margin-top: 75px;
+  border-radius: 15%;
+}
+.titulo{
+width: 15px;
+font-style: bold;
+font-size: 20px;
+position: relative;
+left: 8px;
+}
